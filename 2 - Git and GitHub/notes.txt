@@ -18,6 +18,7 @@ git add .
 - Create a commit
 git commit -m "This is the description."
 
+
 === BRANCHING === 
 
 - List all the branches
@@ -28,3 +29,12 @@ git branch [branch-name]
 
 - Switch to a new branch
 git switch [branch-name]
+
+
+=== MERGING === 
+
+- Merge the branch
+git merge [branch-name]
+
+- Delete a branch
+git branch -d [branch-name]\
